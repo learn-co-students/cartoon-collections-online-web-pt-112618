@@ -62,3 +62,20 @@ describe 'Cartoon Collections' do
     end
   end
 end
+
+array = ["Doc", "Dopey", "Bashful", "Grumpy"]
+def descriptions 
+  array.each_with_index { |description| puts "This is #{description}" }
+end
+
+planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+palanteer_calls.collect do |element| 
+  "#{element}".upcase << !
+end 
+
+assorted_words = ["two", "go", "industrious", "bop"]
+i = 0
+while i < assorted_words.length 
+i = i + 1 
+end
+end
